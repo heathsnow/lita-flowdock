@@ -15,7 +15,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_runtime_dependency "lita", "~> 4.2"
-  spec.add_runtime_dependency "em-eventsource"
+  spec.add_runtime_dependency "em-eventsource", "= 0.2.0"
   spec.add_runtime_dependency "flowdock", ">= 0.6"
 
   spec.add_development_dependency "bundler", "~> 1.3"
